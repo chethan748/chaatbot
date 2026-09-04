@@ -11,7 +11,7 @@ if a:
     elif a.lower() == "byee":
         st.chat_message("ai").write("Goodbye! 👋")
 
-    elif a.lower() == "introduce yourself":
+    elif a.lower() == "introduce":
         st.chat_message("ai").write(
             "Hello! My name is Chethan Made AI. 🤖 "
             "I am a simple chatbot created using Python and Streamlit. "
